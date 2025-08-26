@@ -39,11 +39,11 @@ source .venv/Scripts/activate
 ## Install dependencies:
 pip install -r req.txt
 
-Add your Groq API Key:
+## Add your Groq API Key:
 
-Create a .env file in the project root.
+Create a .env file in the project root with GROQ api key GROQ_API_KEY='gsk_*********'
 
-Running the Application
+## Running the Application
 
 Start the Streamlit app:
 streamlit run app_with_UI.py
